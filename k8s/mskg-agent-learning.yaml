@@ -1,0 +1,68 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mskg-agent-learning
+  labels:
+    app: mskg-agent-learning
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mskg-agent-learning
+  template:
+    metadata:
+      labels:
+        app: mskg-agent-learning
+    spec:
+      containers:
+        - name: demo
+          image: python:3.11-slim
+          imagePullPolicy: IfNotPresent
+          workingDir: /app
+          command: ["python", "/app/src/mskg_agent_learning_demo.py", "--serve", "--host", "0.0.0.0", "--port", "8090"]
+          ports:
+            - name: http
+              containerPort: 8090
+          volumeMounts:
+            - name: demo-code
+              mountPath: /app/src/mskg_agent_learning_demo.py
+              subPath: mskg_agent_learning_demo.py
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: http
+            initialDelaySeconds: 3
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: http
+            initialDelaySeconds: 15
+            periodSeconds: 30
+          resources:
+            requests:
+              cpu: 50m
+              memory: 64Mi
+            limits:
+              cpu: 500m
+              memory: 256Mi
+      volumes:
+        - name: demo-code
+          configMap:
+            name: mskg-agent-learning-code
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mskg-agent-learning
+  labels:
+    app: mskg-agent-learning
+spec:
+  type: ClusterIP
+  selector:
+    app: mskg-agent-learning
+  ports:
+    - name: http
+      port: 8090
+      targetPort: http
+

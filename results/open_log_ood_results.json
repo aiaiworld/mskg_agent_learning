@@ -1,0 +1,5281 @@
+{
+  "benchmark": "public-log-ood-stress",
+  "source": "Public rows shown by Hugging Face dataset viewer/search snippets for reachjalil/jevlogs-log-triage-benchmark, logfit-project/BGL, and logfit-project/HDFS_v1.",
+  "note": "Rows are open infrastructure logs, not 5G Core incidents. Expected behavior is abstention/OOD rather than forced 5GC RCA.",
+  "ood_results": [
+    {
+      "threshold": 0.1,
+      "samples": 12,
+      "ood_abstention_rate": 1.0,
+      "false_5gc_acceptance_rate": 0.0,
+      "mean_top_score": 0.066667,
+      "max_top_score": 0.066667,
+      "examples": [
+        {
+          "id": "bgl_normal_icache_1",
+          "dataset": "logfit-project/BGL",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_normal_core_1",
+          "dataset": "logfit-project/BGL",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_normal_core_2",
+          "dataset": "logfit-project/BGL",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_normal_core_3",
+          "dataset": "logfit-project/BGL",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_socket_1",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_socket_2",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_node_map",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_storage_interrupt",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_tlb_interrupt_1",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_tlb_interrupt_2",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "hdfs_normal_receive_block",
+          "dataset": "logfit-project/HDFS_v1",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "hdfs_normal_pipeline",
+          "dataset": "logfit-project/HDFS_v1",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        }
+      ]
+    },
+    {
+      "threshold": 0.15,
+      "samples": 12,
+      "ood_abstention_rate": 1.0,
+      "false_5gc_acceptance_rate": 0.0,
+      "mean_top_score": 0.066667,
+      "max_top_score": 0.066667,
+      "examples": [
+        {
+          "id": "bgl_normal_icache_1",
+          "dataset": "logfit-project/BGL",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_normal_core_1",
+          "dataset": "logfit-project/BGL",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_normal_core_2",
+          "dataset": "logfit-project/BGL",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_normal_core_3",
+          "dataset": "logfit-project/BGL",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_socket_1",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_socket_2",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_node_map",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_storage_interrupt",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_tlb_interrupt_1",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_tlb_interrupt_2",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "hdfs_normal_receive_block",
+          "dataset": "logfit-project/HDFS_v1",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "hdfs_normal_pipeline",
+          "dataset": "logfit-project/HDFS_v1",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        }
+      ]
+    },
+    {
+      "threshold": 0.2,
+      "samples": 12,
+      "ood_abstention_rate": 1.0,
+      "false_5gc_acceptance_rate": 0.0,
+      "mean_top_score": 0.066667,
+      "max_top_score": 0.066667,
+      "examples": [
+        {
+          "id": "bgl_normal_icache_1",
+          "dataset": "logfit-project/BGL",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_normal_core_1",
+          "dataset": "logfit-project/BGL",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_normal_core_2",
+          "dataset": "logfit-project/BGL",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_normal_core_3",
+          "dataset": "logfit-project/BGL",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_socket_1",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_socket_2",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_node_map",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_storage_interrupt",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_tlb_interrupt_1",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_tlb_interrupt_2",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "hdfs_normal_receive_block",
+          "dataset": "logfit-project/HDFS_v1",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "hdfs_normal_pipeline",
+          "dataset": "logfit-project/HDFS_v1",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        }
+      ]
+    },
+    {
+      "threshold": 0.25,
+      "samples": 12,
+      "ood_abstention_rate": 1.0,
+      "false_5gc_acceptance_rate": 0.0,
+      "mean_top_score": 0.066667,
+      "max_top_score": 0.066667,
+      "examples": [
+        {
+          "id": "bgl_normal_icache_1",
+          "dataset": "logfit-project/BGL",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_normal_core_1",
+          "dataset": "logfit-project/BGL",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_normal_core_2",
+          "dataset": "logfit-project/BGL",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_normal_core_3",
+          "dataset": "logfit-project/BGL",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_socket_1",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_socket_2",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_node_map",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_storage_interrupt",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_tlb_interrupt_1",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "bgl_anom_tlb_interrupt_2",
+          "dataset": "logfit-project/BGL",
+          "source_label": "anomaly",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "hdfs_normal_receive_block",
+          "dataset": "logfit-project/HDFS_v1",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        },
+        {
+          "id": "hdfs_normal_pipeline",
+          "dataset": "logfit-project/HDFS_v1",
+          "source_label": "normal",
+          "top_cause": "amf_n2_sctp",
+          "top_score": 0.066667,
+          "decision": "abstain_ood"
+        }
+      ]
+    }
+  ],
+  "open_log_augmented_5gc": {
+    "samples": 120,
+    "results": [
+      {
+        "mode": "semantic_only",
+        "top1": 0.6,
+        "top3": 0.8,
+        "mrr": 0.7092,
+        "mean_rank": 2.575,
+        "examples": [
+          {
+            "id": "eval_n4_ambiguous_bgl_normal_icache_1",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_normal_core_1",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_normal_core_2",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_normal_core_3",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_socket_1",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_socket_2",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_node_map",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_storage_interrupt",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_tlb_interrupt_1",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_tlb_interrupt_2",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_n4_ambiguous_hdfs_normal_receive_block",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_n4_ambiguous_hdfs_normal_pipeline",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_policy_sparse_bgl_normal_icache_1",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 3,
+            "top_score": 0.707107,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_policy_sparse_bgl_normal_core_1",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 3,
+            "top_score": 0.707107,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_policy_sparse_bgl_normal_core_2",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 3,
+            "top_score": 0.707107,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_policy_sparse_bgl_normal_core_3",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 3,
+            "top_score": 0.707107,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_socket_1",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 3,
+            "top_score": 0.707107,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_socket_2",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 3,
+            "top_score": 0.707107,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_node_map",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 3,
+            "top_score": 0.707107,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_storage_interrupt",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 3,
+            "top_score": 0.707107,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_tlb_interrupt_1",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 3,
+            "top_score": 0.707107,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_tlb_interrupt_2",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 3,
+            "top_score": 0.707107,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_policy_sparse_hdfs_normal_receive_block",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 3,
+            "top_score": 0.707107,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_policy_sparse_hdfs_normal_pipeline",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 3,
+            "top_score": 0.707107,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_normal_icache_1",
+            "gold": "nrf_registration",
+            "predicted": "amf_n2_sctp",
+            "rank": 5,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_normal_core_1",
+            "gold": "nrf_registration",
+            "predicted": "amf_n2_sctp",
+            "rank": 5,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_normal_core_2",
+            "gold": "nrf_registration",
+            "predicted": "amf_n2_sctp",
+            "rank": 5,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_normal_core_3",
+            "gold": "nrf_registration",
+            "predicted": "amf_n2_sctp",
+            "rank": 5,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_socket_1",
+            "gold": "nrf_registration",
+            "predicted": "amf_n2_sctp",
+            "rank": 5,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_socket_2",
+            "gold": "nrf_registration",
+            "predicted": "amf_n2_sctp",
+            "rank": 5,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_node_map",
+            "gold": "nrf_registration",
+            "predicted": "amf_n2_sctp",
+            "rank": 5,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_storage_interrupt",
+            "gold": "nrf_registration",
+            "predicted": "upf_user_plane_drop",
+            "rank": 6,
+            "top_score": 0.353553,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_tlb_interrupt_1",
+            "gold": "nrf_registration",
+            "predicted": "upf_user_plane_drop",
+            "rank": 6,
+            "top_score": 0.353553,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_tlb_interrupt_2",
+            "gold": "nrf_registration",
+            "predicted": "upf_user_plane_drop",
+            "rank": 6,
+            "top_score": 0.353553,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_nrf_noisy_hdfs_normal_receive_block",
+            "gold": "nrf_registration",
+            "predicted": "amf_n2_sctp",
+            "rank": 5,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_nrf_noisy_hdfs_normal_pipeline",
+            "gold": "nrf_registration",
+            "predicted": "amf_n2_sctp",
+            "rank": 5,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_auth_bgl_normal_icache_1",
+            "gold": "ausf_udm_auth",
+            "predicted": "amf_n2_sctp",
+            "rank": 2,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_auth_bgl_normal_core_1",
+            "gold": "ausf_udm_auth",
+            "predicted": "amf_n2_sctp",
+            "rank": 2,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_auth_bgl_normal_core_2",
+            "gold": "ausf_udm_auth",
+            "predicted": "amf_n2_sctp",
+            "rank": 2,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_auth_bgl_normal_core_3",
+            "gold": "ausf_udm_auth",
+            "predicted": "amf_n2_sctp",
+            "rank": 2,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_auth_bgl_anom_socket_1",
+            "gold": "ausf_udm_auth",
+            "predicted": "amf_n2_sctp",
+            "rank": 2,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_auth_bgl_anom_socket_2",
+            "gold": "ausf_udm_auth",
+            "predicted": "amf_n2_sctp",
+            "rank": 2,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_auth_bgl_anom_node_map",
+            "gold": "ausf_udm_auth",
+            "predicted": "amf_n2_sctp",
+            "rank": 2,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_auth_bgl_anom_storage_interrupt",
+            "gold": "ausf_udm_auth",
+            "predicted": "upf_user_plane_drop",
+            "rank": 3,
+            "top_score": 0.353553,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_auth_bgl_anom_tlb_interrupt_1",
+            "gold": "ausf_udm_auth",
+            "predicted": "upf_user_plane_drop",
+            "rank": 3,
+            "top_score": 0.353553,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_auth_bgl_anom_tlb_interrupt_2",
+            "gold": "ausf_udm_auth",
+            "predicted": "upf_user_plane_drop",
+            "rank": 3,
+            "top_score": 0.353553,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_auth_hdfs_normal_receive_block",
+            "gold": "ausf_udm_auth",
+            "predicted": "amf_n2_sctp",
+            "rank": 2,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_auth_hdfs_normal_pipeline",
+            "gold": "ausf_udm_auth",
+            "predicted": "amf_n2_sctp",
+            "rank": 2,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_upf_bgl_normal_icache_1",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.707107,
+            "gold_score": 0.707107
+          },
+          {
+            "id": "eval_upf_bgl_normal_core_1",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.707107,
+            "gold_score": 0.707107
+          },
+          {
+            "id": "eval_upf_bgl_normal_core_2",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.707107,
+            "gold_score": 0.707107
+          },
+          {
+            "id": "eval_upf_bgl_normal_core_3",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.707107,
+            "gold_score": 0.707107
+          },
+          {
+            "id": "eval_upf_bgl_anom_socket_1",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.707107,
+            "gold_score": 0.707107
+          },
+          {
+            "id": "eval_upf_bgl_anom_socket_2",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.707107,
+            "gold_score": 0.707107
+          },
+          {
+            "id": "eval_upf_bgl_anom_node_map",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.707107,
+            "gold_score": 0.707107
+          },
+          {
+            "id": "eval_upf_bgl_anom_storage_interrupt",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.707107,
+            "gold_score": 0.707107
+          },
+          {
+            "id": "eval_upf_bgl_anom_tlb_interrupt_1",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.707107,
+            "gold_score": 0.707107
+          },
+          {
+            "id": "eval_upf_bgl_anom_tlb_interrupt_2",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.707107,
+            "gold_score": 0.707107
+          },
+          {
+            "id": "eval_upf_hdfs_normal_receive_block",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.707107,
+            "gold_score": 0.707107
+          },
+          {
+            "id": "eval_upf_hdfs_normal_pipeline",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.707107,
+            "gold_score": 0.707107
+          },
+          {
+            "id": "eval_llm_bgl_normal_icache_1",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_llm_bgl_normal_core_1",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_llm_bgl_normal_core_2",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_llm_bgl_normal_core_3",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_llm_bgl_anom_socket_1",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_llm_bgl_anom_socket_2",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_llm_bgl_anom_node_map",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_llm_bgl_anom_storage_interrupt",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_llm_bgl_anom_tlb_interrupt_1",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_llm_bgl_anom_tlb_interrupt_2",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_llm_hdfs_normal_receive_block",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_llm_hdfs_normal_pipeline",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_smf_pod_bgl_normal_icache_1",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_smf_pod_bgl_normal_core_1",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_smf_pod_bgl_normal_core_2",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_smf_pod_bgl_normal_core_3",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_socket_1",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_socket_2",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_node_map",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_storage_interrupt",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_tlb_interrupt_1",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_tlb_interrupt_2",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_smf_pod_hdfs_normal_receive_block",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_smf_pod_hdfs_normal_pipeline",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_amf_bgl_normal_icache_1",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_amf_bgl_normal_core_1",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_amf_bgl_normal_core_2",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_amf_bgl_normal_core_3",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_amf_bgl_anom_socket_1",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_amf_bgl_anom_socket_2",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_amf_bgl_anom_node_map",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_amf_bgl_anom_storage_interrupt",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_amf_bgl_anom_tlb_interrupt_1",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_amf_bgl_anom_tlb_interrupt_2",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_amf_hdfs_normal_receive_block",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_amf_hdfs_normal_pipeline",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_nssf_bgl_normal_icache_1",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_nssf_bgl_normal_core_1",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_nssf_bgl_normal_core_2",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_nssf_bgl_normal_core_3",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_nssf_bgl_anom_socket_1",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_nssf_bgl_anom_socket_2",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_nssf_bgl_anom_node_map",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_nssf_bgl_anom_storage_interrupt",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_nssf_bgl_anom_tlb_interrupt_1",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_nssf_bgl_anom_tlb_interrupt_2",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_nssf_hdfs_normal_receive_block",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_nssf_hdfs_normal_pipeline",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.377964,
+            "gold_score": 0.377964
+          },
+          {
+            "id": "eval_udr_bgl_normal_icache_1",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 9,
+            "top_score": 0.408248,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_bgl_normal_core_1",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 9,
+            "top_score": 0.408248,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_bgl_normal_core_2",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 9,
+            "top_score": 0.408248,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_bgl_normal_core_3",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 9,
+            "top_score": 0.408248,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_bgl_anom_socket_1",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 9,
+            "top_score": 0.408248,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_bgl_anom_socket_2",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 9,
+            "top_score": 0.408248,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_bgl_anom_node_map",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 9,
+            "top_score": 0.408248,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_bgl_anom_storage_interrupt",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 10,
+            "top_score": 0.408248,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_bgl_anom_tlb_interrupt_1",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 10,
+            "top_score": 0.408248,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_bgl_anom_tlb_interrupt_2",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 10,
+            "top_score": 0.408248,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_hdfs_normal_receive_block",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 9,
+            "top_score": 0.408248,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_hdfs_normal_pipeline",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 9,
+            "top_score": 0.408248,
+            "gold_score": 0.0
+          }
+        ]
+      },
+      {
+        "mode": "vector_rag",
+        "top1": 0.525,
+        "top3": 0.75,
+        "mrr": 0.6672,
+        "mean_rank": 2.8667,
+        "examples": [
+          {
+            "id": "eval_n4_ambiguous_bgl_normal_icache_1",
+            "gold": "n4_pfcp_path",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 2,
+            "top_score": 0.417029,
+            "gold_score": 0.371391
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_normal_core_1",
+            "gold": "n4_pfcp_path",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 2,
+            "top_score": 0.208514,
+            "gold_score": 0.185695
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_normal_core_2",
+            "gold": "n4_pfcp_path",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 2,
+            "top_score": 0.208514,
+            "gold_score": 0.185695
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_normal_core_3",
+            "gold": "n4_pfcp_path",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 2,
+            "top_score": 0.208514,
+            "gold_score": 0.185695
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_socket_1",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.557086,
+            "gold_score": 0.557086
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_socket_2",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.557086,
+            "gold_score": 0.557086
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_node_map",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.557086,
+            "gold_score": 0.557086
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_storage_interrupt",
+            "gold": "n4_pfcp_path",
+            "predicted": "upf_user_plane_drop",
+            "rank": 4,
+            "top_score": 0.342997,
+            "gold_score": 0.185695
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_tlb_interrupt_1",
+            "gold": "n4_pfcp_path",
+            "predicted": "ausf_udm_auth",
+            "rank": 3,
+            "top_score": 0.436436,
+            "gold_score": 0.371391
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_tlb_interrupt_2",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.557086,
+            "gold_score": 0.557086
+          },
+          {
+            "id": "eval_n4_ambiguous_hdfs_normal_receive_block",
+            "gold": "n4_pfcp_path",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 2,
+            "top_score": 0.208514,
+            "gold_score": 0.185695
+          },
+          {
+            "id": "eval_n4_ambiguous_hdfs_normal_pipeline",
+            "gold": "n4_pfcp_path",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 4,
+            "top_score": 0.417029,
+            "gold_score": 0.185695
+          },
+          {
+            "id": "eval_policy_sparse_bgl_normal_icache_1",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.625543,
+            "gold_score": 0.625543
+          },
+          {
+            "id": "eval_policy_sparse_bgl_normal_core_1",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.417029,
+            "gold_score": 0.417029
+          },
+          {
+            "id": "eval_policy_sparse_bgl_normal_core_2",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.417029,
+            "gold_score": 0.417029
+          },
+          {
+            "id": "eval_policy_sparse_bgl_normal_core_3",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.417029,
+            "gold_score": 0.417029
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_socket_1",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "nssf_slice_selection",
+            "rank": 2,
+            "top_score": 0.639602,
+            "gold_score": 0.625543
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_socket_2",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "nssf_slice_selection",
+            "rank": 2,
+            "top_score": 0.639602,
+            "gold_score": 0.625543
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_node_map",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.625543,
+            "gold_score": 0.625543
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_storage_interrupt",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.417029,
+            "gold_score": 0.417029
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_tlb_interrupt_1",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.625543,
+            "gold_score": 0.625543
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_tlb_interrupt_2",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.625543,
+            "gold_score": 0.625543
+          },
+          {
+            "id": "eval_policy_sparse_hdfs_normal_receive_block",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.417029,
+            "gold_score": 0.417029
+          },
+          {
+            "id": "eval_policy_sparse_hdfs_normal_pipeline",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.625543,
+            "gold_score": 0.625543
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_normal_icache_1",
+            "gold": "nrf_registration",
+            "predicted": "ausf_udm_auth",
+            "rank": 8,
+            "top_score": 0.218218,
+            "gold_score": 0.182574
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_normal_core_1",
+            "gold": "nrf_registration",
+            "predicted": "amf_n2_sctp",
+            "rank": 5,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_normal_core_2",
+            "gold": "nrf_registration",
+            "predicted": "amf_n2_sctp",
+            "rank": 5,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_normal_core_3",
+            "gold": "nrf_registration",
+            "predicted": "amf_n2_sctp",
+            "rank": 5,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_socket_1",
+            "gold": "nrf_registration",
+            "predicted": "smf_pod_runtime",
+            "rank": 8,
+            "top_score": 0.436436,
+            "gold_score": 0.182574
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_socket_2",
+            "gold": "nrf_registration",
+            "predicted": "nssf_slice_selection",
+            "rank": 8,
+            "top_score": 0.426401,
+            "gold_score": 0.182574
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_node_map",
+            "gold": "nrf_registration",
+            "predicted": "llm_endpoint_route",
+            "rank": 8,
+            "top_score": 0.408248,
+            "gold_score": 0.182574
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_storage_interrupt",
+            "gold": "nrf_registration",
+            "predicted": "ausf_udm_auth",
+            "rank": 6,
+            "top_score": 0.218218,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_tlb_interrupt_1",
+            "gold": "nrf_registration",
+            "predicted": "ausf_udm_auth",
+            "rank": 8,
+            "top_score": 0.436436,
+            "gold_score": 0.182574
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_tlb_interrupt_2",
+            "gold": "nrf_registration",
+            "predicted": "ausf_udm_auth",
+            "rank": 9,
+            "top_score": 0.436436,
+            "gold_score": 0.182574
+          },
+          {
+            "id": "eval_nrf_noisy_hdfs_normal_receive_block",
+            "gold": "nrf_registration",
+            "predicted": "amf_n2_sctp",
+            "rank": 5,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_nrf_noisy_hdfs_normal_pipeline",
+            "gold": "nrf_registration",
+            "predicted": "ausf_udm_auth",
+            "rank": 7,
+            "top_score": 0.218218,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_auth_bgl_normal_icache_1",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.218218,
+            "gold_score": 0.218218
+          },
+          {
+            "id": "eval_auth_bgl_normal_core_1",
+            "gold": "ausf_udm_auth",
+            "predicted": "amf_n2_sctp",
+            "rank": 2,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_auth_bgl_normal_core_2",
+            "gold": "ausf_udm_auth",
+            "predicted": "amf_n2_sctp",
+            "rank": 2,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_auth_bgl_normal_core_3",
+            "gold": "ausf_udm_auth",
+            "predicted": "amf_n2_sctp",
+            "rank": 2,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_auth_bgl_anom_socket_1",
+            "gold": "ausf_udm_auth",
+            "predicted": "smf_pod_runtime",
+            "rank": 4,
+            "top_score": 0.436436,
+            "gold_score": 0.218218
+          },
+          {
+            "id": "eval_auth_bgl_anom_socket_2",
+            "gold": "ausf_udm_auth",
+            "predicted": "nssf_slice_selection",
+            "rank": 3,
+            "top_score": 0.426401,
+            "gold_score": 0.218218
+          },
+          {
+            "id": "eval_auth_bgl_anom_node_map",
+            "gold": "ausf_udm_auth",
+            "predicted": "llm_endpoint_route",
+            "rank": 3,
+            "top_score": 0.408248,
+            "gold_score": 0.218218
+          },
+          {
+            "id": "eval_auth_bgl_anom_storage_interrupt",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.218218,
+            "gold_score": 0.218218
+          },
+          {
+            "id": "eval_auth_bgl_anom_tlb_interrupt_1",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.436436,
+            "gold_score": 0.436436
+          },
+          {
+            "id": "eval_auth_bgl_anom_tlb_interrupt_2",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.436436,
+            "gold_score": 0.436436
+          },
+          {
+            "id": "eval_auth_hdfs_normal_receive_block",
+            "gold": "ausf_udm_auth",
+            "predicted": "amf_n2_sctp",
+            "rank": 2,
+            "top_score": 0.0,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_auth_hdfs_normal_pipeline",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.218218,
+            "gold_score": 0.218218
+          },
+          {
+            "id": "eval_upf_bgl_normal_icache_1",
+            "gold": "upf_user_plane_drop",
+            "predicted": "ausf_udm_auth",
+            "rank": 4,
+            "top_score": 0.436436,
+            "gold_score": 0.342997
+          },
+          {
+            "id": "eval_upf_bgl_normal_core_1",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.342997,
+            "gold_score": 0.342997
+          },
+          {
+            "id": "eval_upf_bgl_normal_core_2",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.342997,
+            "gold_score": 0.342997
+          },
+          {
+            "id": "eval_upf_bgl_normal_core_3",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.342997,
+            "gold_score": 0.342997
+          },
+          {
+            "id": "eval_upf_bgl_anom_socket_1",
+            "gold": "upf_user_plane_drop",
+            "predicted": "n4_pfcp_path",
+            "rank": 2,
+            "top_score": 0.557086,
+            "gold_score": 0.514496
+          },
+          {
+            "id": "eval_upf_bgl_anom_socket_2",
+            "gold": "upf_user_plane_drop",
+            "predicted": "n4_pfcp_path",
+            "rank": 2,
+            "top_score": 0.557086,
+            "gold_score": 0.514496
+          },
+          {
+            "id": "eval_upf_bgl_anom_node_map",
+            "gold": "upf_user_plane_drop",
+            "predicted": "n4_pfcp_path",
+            "rank": 5,
+            "top_score": 0.557086,
+            "gold_score": 0.342997
+          },
+          {
+            "id": "eval_upf_bgl_anom_storage_interrupt",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.342997,
+            "gold_score": 0.342997
+          },
+          {
+            "id": "eval_upf_bgl_anom_tlb_interrupt_1",
+            "gold": "upf_user_plane_drop",
+            "predicted": "ausf_udm_auth",
+            "rank": 4,
+            "top_score": 0.436436,
+            "gold_score": 0.342997
+          },
+          {
+            "id": "eval_upf_bgl_anom_tlb_interrupt_2",
+            "gold": "upf_user_plane_drop",
+            "predicted": "n4_pfcp_path",
+            "rank": 2,
+            "top_score": 0.557086,
+            "gold_score": 0.514496
+          },
+          {
+            "id": "eval_upf_hdfs_normal_receive_block",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.342997,
+            "gold_score": 0.342997
+          },
+          {
+            "id": "eval_upf_hdfs_normal_pipeline",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.514496,
+            "gold_score": 0.514496
+          },
+          {
+            "id": "eval_llm_bgl_normal_icache_1",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.408248,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_llm_bgl_normal_core_1",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.204124,
+            "gold_score": 0.204124
+          },
+          {
+            "id": "eval_llm_bgl_normal_core_2",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.204124,
+            "gold_score": 0.204124
+          },
+          {
+            "id": "eval_llm_bgl_normal_core_3",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.204124,
+            "gold_score": 0.204124
+          },
+          {
+            "id": "eval_llm_bgl_anom_socket_1",
+            "gold": "llm_endpoint_route",
+            "predicted": "smf_pod_runtime",
+            "rank": 3,
+            "top_score": 0.436436,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_llm_bgl_anom_socket_2",
+            "gold": "llm_endpoint_route",
+            "predicted": "nssf_slice_selection",
+            "rank": 2,
+            "top_score": 0.426401,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_llm_bgl_anom_node_map",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.612372,
+            "gold_score": 0.612372
+          },
+          {
+            "id": "eval_llm_bgl_anom_storage_interrupt",
+            "gold": "llm_endpoint_route",
+            "predicted": "ausf_udm_auth",
+            "rank": 2,
+            "top_score": 0.218218,
+            "gold_score": 0.204124
+          },
+          {
+            "id": "eval_llm_bgl_anom_tlb_interrupt_1",
+            "gold": "llm_endpoint_route",
+            "predicted": "ausf_udm_auth",
+            "rank": 2,
+            "top_score": 0.436436,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_llm_bgl_anom_tlb_interrupt_2",
+            "gold": "llm_endpoint_route",
+            "predicted": "ausf_udm_auth",
+            "rank": 2,
+            "top_score": 0.436436,
+            "gold_score": 0.408248
+          },
+          {
+            "id": "eval_llm_hdfs_normal_receive_block",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.204124,
+            "gold_score": 0.204124
+          },
+          {
+            "id": "eval_llm_hdfs_normal_pipeline",
+            "gold": "llm_endpoint_route",
+            "predicted": "ausf_udm_auth",
+            "rank": 3,
+            "top_score": 0.218218,
+            "gold_score": 0.204124
+          },
+          {
+            "id": "eval_smf_pod_bgl_normal_icache_1",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.654654,
+            "gold_score": 0.654654
+          },
+          {
+            "id": "eval_smf_pod_bgl_normal_core_1",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.436436,
+            "gold_score": 0.436436
+          },
+          {
+            "id": "eval_smf_pod_bgl_normal_core_2",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.436436,
+            "gold_score": 0.436436
+          },
+          {
+            "id": "eval_smf_pod_bgl_normal_core_3",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.436436,
+            "gold_score": 0.436436
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_socket_1",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.872872,
+            "gold_score": 0.872872
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_socket_2",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.654654,
+            "gold_score": 0.654654
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_node_map",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.654654,
+            "gold_score": 0.654654
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_storage_interrupt",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.436436,
+            "gold_score": 0.436436
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_tlb_interrupt_1",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.654654,
+            "gold_score": 0.654654
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_tlb_interrupt_2",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.654654,
+            "gold_score": 0.654654
+          },
+          {
+            "id": "eval_smf_pod_hdfs_normal_receive_block",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.436436,
+            "gold_score": 0.436436
+          },
+          {
+            "id": "eval_smf_pod_hdfs_normal_pipeline",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.436436,
+            "gold_score": 0.436436
+          },
+          {
+            "id": "eval_amf_bgl_normal_icache_1",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.639602,
+            "gold_score": 0.639602
+          },
+          {
+            "id": "eval_amf_bgl_normal_core_1",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.426401,
+            "gold_score": 0.426401
+          },
+          {
+            "id": "eval_amf_bgl_normal_core_2",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.426401,
+            "gold_score": 0.426401
+          },
+          {
+            "id": "eval_amf_bgl_normal_core_3",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.426401,
+            "gold_score": 0.426401
+          },
+          {
+            "id": "eval_amf_bgl_anom_socket_1",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.639602,
+            "gold_score": 0.639602
+          },
+          {
+            "id": "eval_amf_bgl_anom_socket_2",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.639602,
+            "gold_score": 0.639602
+          },
+          {
+            "id": "eval_amf_bgl_anom_node_map",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.639602,
+            "gold_score": 0.639602
+          },
+          {
+            "id": "eval_amf_bgl_anom_storage_interrupt",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.426401,
+            "gold_score": 0.426401
+          },
+          {
+            "id": "eval_amf_bgl_anom_tlb_interrupt_1",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.639602,
+            "gold_score": 0.639602
+          },
+          {
+            "id": "eval_amf_bgl_anom_tlb_interrupt_2",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.639602,
+            "gold_score": 0.639602
+          },
+          {
+            "id": "eval_amf_hdfs_normal_receive_block",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.426401,
+            "gold_score": 0.426401
+          },
+          {
+            "id": "eval_amf_hdfs_normal_pipeline",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.426401,
+            "gold_score": 0.426401
+          },
+          {
+            "id": "eval_nssf_bgl_normal_icache_1",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.426401,
+            "gold_score": 0.426401
+          },
+          {
+            "id": "eval_nssf_bgl_normal_core_1",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.213201,
+            "gold_score": 0.213201
+          },
+          {
+            "id": "eval_nssf_bgl_normal_core_2",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.213201,
+            "gold_score": 0.213201
+          },
+          {
+            "id": "eval_nssf_bgl_normal_core_3",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.213201,
+            "gold_score": 0.213201
+          },
+          {
+            "id": "eval_nssf_bgl_anom_socket_1",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.639602,
+            "gold_score": 0.639602
+          },
+          {
+            "id": "eval_nssf_bgl_anom_socket_2",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.639602,
+            "gold_score": 0.639602
+          },
+          {
+            "id": "eval_nssf_bgl_anom_node_map",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.426401,
+            "gold_score": 0.426401
+          },
+          {
+            "id": "eval_nssf_bgl_anom_storage_interrupt",
+            "gold": "nssf_slice_selection",
+            "predicted": "ausf_udm_auth",
+            "rank": 2,
+            "top_score": 0.218218,
+            "gold_score": 0.213201
+          },
+          {
+            "id": "eval_nssf_bgl_anom_tlb_interrupt_1",
+            "gold": "nssf_slice_selection",
+            "predicted": "ausf_udm_auth",
+            "rank": 2,
+            "top_score": 0.436436,
+            "gold_score": 0.426401
+          },
+          {
+            "id": "eval_nssf_bgl_anom_tlb_interrupt_2",
+            "gold": "nssf_slice_selection",
+            "predicted": "ausf_udm_auth",
+            "rank": 2,
+            "top_score": 0.436436,
+            "gold_score": 0.426401
+          },
+          {
+            "id": "eval_nssf_hdfs_normal_receive_block",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.213201,
+            "gold_score": 0.213201
+          },
+          {
+            "id": "eval_nssf_hdfs_normal_pipeline",
+            "gold": "nssf_slice_selection",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 3,
+            "top_score": 0.417029,
+            "gold_score": 0.213201
+          },
+          {
+            "id": "eval_udr_bgl_normal_icache_1",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 9,
+            "top_score": 0.365148,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_bgl_normal_core_1",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 9,
+            "top_score": 0.182574,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_bgl_normal_core_2",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 9,
+            "top_score": 0.182574,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_bgl_normal_core_3",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 9,
+            "top_score": 0.182574,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_bgl_anom_socket_1",
+            "gold": "udr_database_latency",
+            "predicted": "smf_pod_runtime",
+            "rank": 10,
+            "top_score": 0.436436,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_bgl_anom_socket_2",
+            "gold": "udr_database_latency",
+            "predicted": "nssf_slice_selection",
+            "rank": 10,
+            "top_score": 0.426401,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_bgl_anom_node_map",
+            "gold": "udr_database_latency",
+            "predicted": "llm_endpoint_route",
+            "rank": 9,
+            "top_score": 0.408248,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_bgl_anom_storage_interrupt",
+            "gold": "udr_database_latency",
+            "predicted": "ausf_udm_auth",
+            "rank": 10,
+            "top_score": 0.218218,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_bgl_anom_tlb_interrupt_1",
+            "gold": "udr_database_latency",
+            "predicted": "ausf_udm_auth",
+            "rank": 10,
+            "top_score": 0.436436,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_bgl_anom_tlb_interrupt_2",
+            "gold": "udr_database_latency",
+            "predicted": "ausf_udm_auth",
+            "rank": 10,
+            "top_score": 0.436436,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_hdfs_normal_receive_block",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 9,
+            "top_score": 0.182574,
+            "gold_score": 0.0
+          },
+          {
+            "id": "eval_udr_hdfs_normal_pipeline",
+            "gold": "udr_database_latency",
+            "predicted": "ausf_udm_auth",
+            "rank": 10,
+            "top_score": 0.218218,
+            "gold_score": 0.0
+          }
+        ]
+      },
+      {
+        "mode": "graph_rag",
+        "top1": 0.7583,
+        "top3": 0.975,
+        "mrr": 0.8531,
+        "mean_rank": 1.4167,
+        "examples": [
+          {
+            "id": "eval_n4_ambiguous_bgl_normal_icache_1",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.429265,
+            "gold_score": 0.429265
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_normal_core_1",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.327132,
+            "gold_score": 0.327132
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_normal_core_2",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.327132,
+            "gold_score": 0.327132
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_normal_core_3",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.327132,
+            "gold_score": 0.327132
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_socket_1",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.531397,
+            "gold_score": 0.531397
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_socket_2",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.531397,
+            "gold_score": 0.531397
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_node_map",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.531397,
+            "gold_score": 0.531397
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_storage_interrupt",
+            "gold": "n4_pfcp_path",
+            "predicted": "upf_user_plane_drop",
+            "rank": 2,
+            "top_score": 0.376148,
+            "gold_score": 0.327132
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_tlb_interrupt_1",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.429265,
+            "gold_score": 0.429265
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_tlb_interrupt_2",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.531397,
+            "gold_score": 0.531397
+          },
+          {
+            "id": "eval_n4_ambiguous_hdfs_normal_receive_block",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.327132,
+            "gold_score": 0.327132
+          },
+          {
+            "id": "eval_n4_ambiguous_hdfs_normal_pipeline",
+            "gold": "n4_pfcp_path",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 3,
+            "top_score": 0.416866,
+            "gold_score": 0.327132
+          },
+          {
+            "id": "eval_policy_sparse_bgl_normal_icache_1",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.554049,
+            "gold_score": 0.554049
+          },
+          {
+            "id": "eval_policy_sparse_bgl_normal_core_1",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.439366,
+            "gold_score": 0.439366
+          },
+          {
+            "id": "eval_policy_sparse_bgl_normal_core_2",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.439366,
+            "gold_score": 0.439366
+          },
+          {
+            "id": "eval_policy_sparse_bgl_normal_core_3",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.439366,
+            "gold_score": 0.439366
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_socket_1",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.554049,
+            "gold_score": 0.554049
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_socket_2",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.554049,
+            "gold_score": 0.554049
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_node_map",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.554049,
+            "gold_score": 0.554049
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_storage_interrupt",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.439366,
+            "gold_score": 0.439366
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_tlb_interrupt_1",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.554049,
+            "gold_score": 0.554049
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_tlb_interrupt_2",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.554049,
+            "gold_score": 0.554049
+          },
+          {
+            "id": "eval_policy_sparse_hdfs_normal_receive_block",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.439366,
+            "gold_score": 0.439366
+          },
+          {
+            "id": "eval_policy_sparse_hdfs_normal_pipeline",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.554049,
+            "gold_score": 0.554049
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_normal_icache_1",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.325416,
+            "gold_score": 0.325416
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_normal_core_1",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.225,
+            "gold_score": 0.225
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_normal_core_2",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.225,
+            "gold_score": 0.225
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_normal_core_3",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.225,
+            "gold_score": 0.225
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_socket_1",
+            "gold": "nrf_registration",
+            "predicted": "smf_pod_runtime",
+            "rank": 4,
+            "top_score": 0.42754,
+            "gold_score": 0.325416
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_socket_2",
+            "gold": "nrf_registration",
+            "predicted": "n4_pfcp_path",
+            "rank": 3,
+            "top_score": 0.391765,
+            "gold_score": 0.325416
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_node_map",
+            "gold": "nrf_registration",
+            "predicted": "n4_pfcp_path",
+            "rank": 2,
+            "top_score": 0.391765,
+            "gold_score": 0.325416
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_storage_interrupt",
+            "gold": "nrf_registration",
+            "predicted": "upf_user_plane_drop",
+            "rank": 2,
+            "top_score": 0.244324,
+            "gold_score": 0.225
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_tlb_interrupt_1",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.325416,
+            "gold_score": 0.325416
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_tlb_interrupt_2",
+            "gold": "nrf_registration",
+            "predicted": "n4_pfcp_path",
+            "rank": 3,
+            "top_score": 0.391765,
+            "gold_score": 0.325416
+          },
+          {
+            "id": "eval_nrf_noisy_hdfs_normal_receive_block",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.225,
+            "gold_score": 0.225
+          },
+          {
+            "id": "eval_nrf_noisy_hdfs_normal_pipeline",
+            "gold": "nrf_registration",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 3,
+            "top_score": 0.302183,
+            "gold_score": 0.225
+          },
+          {
+            "id": "eval_auth_bgl_normal_icache_1",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.34502,
+            "gold_score": 0.34502
+          },
+          {
+            "id": "eval_auth_bgl_normal_core_1",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.225,
+            "gold_score": 0.225
+          },
+          {
+            "id": "eval_auth_bgl_normal_core_2",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.225,
+            "gold_score": 0.225
+          },
+          {
+            "id": "eval_auth_bgl_normal_core_3",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.225,
+            "gold_score": 0.225
+          },
+          {
+            "id": "eval_auth_bgl_anom_socket_1",
+            "gold": "ausf_udm_auth",
+            "predicted": "nssf_slice_selection",
+            "rank": 2,
+            "top_score": 0.384521,
+            "gold_score": 0.34502
+          },
+          {
+            "id": "eval_auth_bgl_anom_socket_2",
+            "gold": "ausf_udm_auth",
+            "predicted": "nssf_slice_selection",
+            "rank": 2,
+            "top_score": 0.384521,
+            "gold_score": 0.34502
+          },
+          {
+            "id": "eval_auth_bgl_anom_node_map",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.34502,
+            "gold_score": 0.34502
+          },
+          {
+            "id": "eval_auth_bgl_anom_storage_interrupt",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.34502,
+            "gold_score": 0.34502
+          },
+          {
+            "id": "eval_auth_bgl_anom_tlb_interrupt_1",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.46504,
+            "gold_score": 0.46504
+          },
+          {
+            "id": "eval_auth_bgl_anom_tlb_interrupt_2",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.46504,
+            "gold_score": 0.46504
+          },
+          {
+            "id": "eval_auth_hdfs_normal_receive_block",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.225,
+            "gold_score": 0.225
+          },
+          {
+            "id": "eval_auth_hdfs_normal_pipeline",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.34502,
+            "gold_score": 0.34502
+          },
+          {
+            "id": "eval_upf_bgl_normal_icache_1",
+            "gold": "upf_user_plane_drop",
+            "predicted": "n4_pfcp_path",
+            "rank": 2,
+            "top_score": 0.429265,
+            "gold_score": 0.413648
+          },
+          {
+            "id": "eval_upf_bgl_normal_core_1",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.413648,
+            "gold_score": 0.413648
+          },
+          {
+            "id": "eval_upf_bgl_normal_core_2",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.413648,
+            "gold_score": 0.413648
+          },
+          {
+            "id": "eval_upf_bgl_normal_core_3",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.413648,
+            "gold_score": 0.413648
+          },
+          {
+            "id": "eval_upf_bgl_anom_socket_1",
+            "gold": "upf_user_plane_drop",
+            "predicted": "n4_pfcp_path",
+            "rank": 2,
+            "top_score": 0.531397,
+            "gold_score": 0.507973
+          },
+          {
+            "id": "eval_upf_bgl_anom_socket_2",
+            "gold": "upf_user_plane_drop",
+            "predicted": "n4_pfcp_path",
+            "rank": 2,
+            "top_score": 0.531397,
+            "gold_score": 0.507973
+          },
+          {
+            "id": "eval_upf_bgl_anom_node_map",
+            "gold": "upf_user_plane_drop",
+            "predicted": "n4_pfcp_path",
+            "rank": 2,
+            "top_score": 0.531397,
+            "gold_score": 0.413648
+          },
+          {
+            "id": "eval_upf_bgl_anom_storage_interrupt",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.413648,
+            "gold_score": 0.413648
+          },
+          {
+            "id": "eval_upf_bgl_anom_tlb_interrupt_1",
+            "gold": "upf_user_plane_drop",
+            "predicted": "n4_pfcp_path",
+            "rank": 2,
+            "top_score": 0.429265,
+            "gold_score": 0.413648
+          },
+          {
+            "id": "eval_upf_bgl_anom_tlb_interrupt_2",
+            "gold": "upf_user_plane_drop",
+            "predicted": "n4_pfcp_path",
+            "rank": 2,
+            "top_score": 0.531397,
+            "gold_score": 0.507973
+          },
+          {
+            "id": "eval_upf_hdfs_normal_receive_block",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.413648,
+            "gold_score": 0.413648
+          },
+          {
+            "id": "eval_upf_hdfs_normal_pipeline",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.507973,
+            "gold_score": 0.507973
+          },
+          {
+            "id": "eval_llm_bgl_normal_icache_1",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.449537,
+            "gold_score": 0.449537
+          },
+          {
+            "id": "eval_llm_bgl_normal_core_1",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.337268,
+            "gold_score": 0.337268
+          },
+          {
+            "id": "eval_llm_bgl_normal_core_2",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.337268,
+            "gold_score": 0.337268
+          },
+          {
+            "id": "eval_llm_bgl_normal_core_3",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.337268,
+            "gold_score": 0.337268
+          },
+          {
+            "id": "eval_llm_bgl_anom_socket_1",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.449537,
+            "gold_score": 0.449537
+          },
+          {
+            "id": "eval_llm_bgl_anom_socket_2",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.449537,
+            "gold_score": 0.449537
+          },
+          {
+            "id": "eval_llm_bgl_anom_node_map",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.561805,
+            "gold_score": 0.561805
+          },
+          {
+            "id": "eval_llm_bgl_anom_storage_interrupt",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.337268,
+            "gold_score": 0.337268
+          },
+          {
+            "id": "eval_llm_bgl_anom_tlb_interrupt_1",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.449537,
+            "gold_score": 0.449537
+          },
+          {
+            "id": "eval_llm_bgl_anom_tlb_interrupt_2",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.449537,
+            "gold_score": 0.449537
+          },
+          {
+            "id": "eval_llm_hdfs_normal_receive_block",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.337268,
+            "gold_score": 0.337268
+          },
+          {
+            "id": "eval_llm_hdfs_normal_pipeline",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.337268,
+            "gold_score": 0.337268
+          },
+          {
+            "id": "eval_smf_pod_bgl_normal_icache_1",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.58506,
+            "gold_score": 0.58506
+          },
+          {
+            "id": "eval_smf_pod_bgl_normal_core_1",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.46504,
+            "gold_score": 0.46504
+          },
+          {
+            "id": "eval_smf_pod_bgl_normal_core_2",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.46504,
+            "gold_score": 0.46504
+          },
+          {
+            "id": "eval_smf_pod_bgl_normal_core_3",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.46504,
+            "gold_score": 0.46504
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_socket_1",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.705079,
+            "gold_score": 0.705079
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_socket_2",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.58506,
+            "gold_score": 0.58506
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_node_map",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.58506,
+            "gold_score": 0.58506
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_storage_interrupt",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.46504,
+            "gold_score": 0.46504
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_tlb_interrupt_1",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.58506,
+            "gold_score": 0.58506
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_tlb_interrupt_2",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.58506,
+            "gold_score": 0.58506
+          },
+          {
+            "id": "eval_smf_pod_hdfs_normal_receive_block",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.46504,
+            "gold_score": 0.46504
+          },
+          {
+            "id": "eval_smf_pod_hdfs_normal_pipeline",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.46504,
+            "gold_score": 0.46504
+          },
+          {
+            "id": "eval_amf_bgl_normal_icache_1",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.561781,
+            "gold_score": 0.561781
+          },
+          {
+            "id": "eval_amf_bgl_normal_core_1",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.444521,
+            "gold_score": 0.444521
+          },
+          {
+            "id": "eval_amf_bgl_normal_core_2",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.444521,
+            "gold_score": 0.444521
+          },
+          {
+            "id": "eval_amf_bgl_normal_core_3",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.444521,
+            "gold_score": 0.444521
+          },
+          {
+            "id": "eval_amf_bgl_anom_socket_1",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.561781,
+            "gold_score": 0.561781
+          },
+          {
+            "id": "eval_amf_bgl_anom_socket_2",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.561781,
+            "gold_score": 0.561781
+          },
+          {
+            "id": "eval_amf_bgl_anom_node_map",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.561781,
+            "gold_score": 0.561781
+          },
+          {
+            "id": "eval_amf_bgl_anom_storage_interrupt",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.444521,
+            "gold_score": 0.444521
+          },
+          {
+            "id": "eval_amf_bgl_anom_tlb_interrupt_1",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.561781,
+            "gold_score": 0.561781
+          },
+          {
+            "id": "eval_amf_bgl_anom_tlb_interrupt_2",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.561781,
+            "gold_score": 0.561781
+          },
+          {
+            "id": "eval_amf_hdfs_normal_receive_block",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.444521,
+            "gold_score": 0.444521
+          },
+          {
+            "id": "eval_amf_hdfs_normal_pipeline",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.444521,
+            "gold_score": 0.444521
+          },
+          {
+            "id": "eval_nssf_bgl_normal_icache_1",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.459521,
+            "gold_score": 0.459521
+          },
+          {
+            "id": "eval_nssf_bgl_normal_core_1",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.34226,
+            "gold_score": 0.34226
+          },
+          {
+            "id": "eval_nssf_bgl_normal_core_2",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.34226,
+            "gold_score": 0.34226
+          },
+          {
+            "id": "eval_nssf_bgl_normal_core_3",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.34226,
+            "gold_score": 0.34226
+          },
+          {
+            "id": "eval_nssf_bgl_anom_socket_1",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.576781,
+            "gold_score": 0.576781
+          },
+          {
+            "id": "eval_nssf_bgl_anom_socket_2",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.576781,
+            "gold_score": 0.576781
+          },
+          {
+            "id": "eval_nssf_bgl_anom_node_map",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.459521,
+            "gold_score": 0.459521
+          },
+          {
+            "id": "eval_nssf_bgl_anom_storage_interrupt",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.34226,
+            "gold_score": 0.34226
+          },
+          {
+            "id": "eval_nssf_bgl_anom_tlb_interrupt_1",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.459521,
+            "gold_score": 0.459521
+          },
+          {
+            "id": "eval_nssf_bgl_anom_tlb_interrupt_2",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.459521,
+            "gold_score": 0.459521
+          },
+          {
+            "id": "eval_nssf_hdfs_normal_receive_block",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.34226,
+            "gold_score": 0.34226
+          },
+          {
+            "id": "eval_nssf_hdfs_normal_pipeline",
+            "gold": "nssf_slice_selection",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 2,
+            "top_score": 0.404366,
+            "gold_score": 0.34226
+          },
+          {
+            "id": "eval_udr_bgl_normal_icache_1",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 3,
+            "top_score": 0.388332,
+            "gold_score": 0.225
+          },
+          {
+            "id": "eval_udr_bgl_normal_core_1",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 3,
+            "top_score": 0.287916,
+            "gold_score": 0.225
+          },
+          {
+            "id": "eval_udr_bgl_normal_core_2",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 3,
+            "top_score": 0.287916,
+            "gold_score": 0.225
+          },
+          {
+            "id": "eval_udr_bgl_normal_core_3",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 3,
+            "top_score": 0.287916,
+            "gold_score": 0.225
+          },
+          {
+            "id": "eval_udr_bgl_anom_socket_1",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 5,
+            "top_score": 0.388332,
+            "gold_score": 0.225
+          },
+          {
+            "id": "eval_udr_bgl_anom_socket_2",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 4,
+            "top_score": 0.388332,
+            "gold_score": 0.225
+          },
+          {
+            "id": "eval_udr_bgl_anom_node_map",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 3,
+            "top_score": 0.388332,
+            "gold_score": 0.225
+          },
+          {
+            "id": "eval_udr_bgl_anom_storage_interrupt",
+            "gold": "udr_database_latency",
+            "predicted": "ausf_udm_auth",
+            "rank": 3,
+            "top_score": 0.34502,
+            "gold_score": 0.225
+          },
+          {
+            "id": "eval_udr_bgl_anom_tlb_interrupt_1",
+            "gold": "udr_database_latency",
+            "predicted": "ausf_udm_auth",
+            "rank": 3,
+            "top_score": 0.46504,
+            "gold_score": 0.225
+          },
+          {
+            "id": "eval_udr_bgl_anom_tlb_interrupt_2",
+            "gold": "udr_database_latency",
+            "predicted": "ausf_udm_auth",
+            "rank": 3,
+            "top_score": 0.46504,
+            "gold_score": 0.225
+          },
+          {
+            "id": "eval_udr_hdfs_normal_receive_block",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 3,
+            "top_score": 0.287916,
+            "gold_score": 0.225
+          },
+          {
+            "id": "eval_udr_hdfs_normal_pipeline",
+            "gold": "udr_database_latency",
+            "predicted": "ausf_udm_auth",
+            "rank": 3,
+            "top_score": 0.34502,
+            "gold_score": 0.225
+          }
+        ]
+      },
+      {
+        "mode": "morphology_semantic",
+        "top1": 0.775,
+        "top3": 1.0,
+        "mrr": 0.8708,
+        "mean_rank": 1.325,
+        "examples": [
+          {
+            "id": "eval_n4_ambiguous_bgl_normal_icache_1",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_normal_core_1",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_normal_core_2",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_normal_core_3",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_socket_1",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_socket_2",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_node_map",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_storage_interrupt",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_tlb_interrupt_1",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_tlb_interrupt_2",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_n4_ambiguous_hdfs_normal_receive_block",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_n4_ambiguous_hdfs_normal_pipeline",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_policy_sparse_bgl_normal_icache_1",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 2,
+            "top_score": 0.550122,
+            "gold_score": 0.415219
+          },
+          {
+            "id": "eval_policy_sparse_bgl_normal_core_1",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 2,
+            "top_score": 0.550122,
+            "gold_score": 0.415219
+          },
+          {
+            "id": "eval_policy_sparse_bgl_normal_core_2",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 2,
+            "top_score": 0.550122,
+            "gold_score": 0.415219
+          },
+          {
+            "id": "eval_policy_sparse_bgl_normal_core_3",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 2,
+            "top_score": 0.550122,
+            "gold_score": 0.415219
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_socket_1",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 2,
+            "top_score": 0.550122,
+            "gold_score": 0.415219
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_socket_2",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 2,
+            "top_score": 0.550122,
+            "gold_score": 0.415219
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_node_map",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 2,
+            "top_score": 0.550122,
+            "gold_score": 0.415219
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_storage_interrupt",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 2,
+            "top_score": 0.550122,
+            "gold_score": 0.415219
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_tlb_interrupt_1",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 2,
+            "top_score": 0.550122,
+            "gold_score": 0.415219
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_tlb_interrupt_2",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 2,
+            "top_score": 0.550122,
+            "gold_score": 0.415219
+          },
+          {
+            "id": "eval_policy_sparse_hdfs_normal_receive_block",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 2,
+            "top_score": 0.550122,
+            "gold_score": 0.415219
+          },
+          {
+            "id": "eval_policy_sparse_hdfs_normal_pipeline",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "upf_user_plane_drop",
+            "rank": 2,
+            "top_score": 0.550122,
+            "gold_score": 0.415219
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_normal_icache_1",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.21,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_normal_core_1",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.21,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_normal_core_2",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.21,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_normal_core_3",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.21,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_socket_1",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.21,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_socket_2",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.21,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_node_map",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.21,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_storage_interrupt",
+            "gold": "nrf_registration",
+            "predicted": "upf_user_plane_drop",
+            "rank": 2,
+            "top_score": 0.345061,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_tlb_interrupt_1",
+            "gold": "nrf_registration",
+            "predicted": "upf_user_plane_drop",
+            "rank": 2,
+            "top_score": 0.345061,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_tlb_interrupt_2",
+            "gold": "nrf_registration",
+            "predicted": "upf_user_plane_drop",
+            "rank": 2,
+            "top_score": 0.345061,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_nrf_noisy_hdfs_normal_receive_block",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.21,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_nrf_noisy_hdfs_normal_pipeline",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.21,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_auth_bgl_normal_icache_1",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.21,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_auth_bgl_normal_core_1",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.21,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_auth_bgl_normal_core_2",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.21,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_auth_bgl_normal_core_3",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.21,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_auth_bgl_anom_socket_1",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.21,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_auth_bgl_anom_socket_2",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.21,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_auth_bgl_anom_node_map",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.21,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_auth_bgl_anom_storage_interrupt",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.21,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_auth_bgl_anom_tlb_interrupt_1",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.21,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_auth_bgl_anom_tlb_interrupt_2",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.21,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_auth_hdfs_normal_receive_block",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.21,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_auth_hdfs_normal_pipeline",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.21,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_upf_bgl_normal_icache_1",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.620122,
+            "gold_score": 0.620122
+          },
+          {
+            "id": "eval_upf_bgl_normal_core_1",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.620122,
+            "gold_score": 0.620122
+          },
+          {
+            "id": "eval_upf_bgl_normal_core_2",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.620122,
+            "gold_score": 0.620122
+          },
+          {
+            "id": "eval_upf_bgl_normal_core_3",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.620122,
+            "gold_score": 0.620122
+          },
+          {
+            "id": "eval_upf_bgl_anom_socket_1",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.620122,
+            "gold_score": 0.620122
+          },
+          {
+            "id": "eval_upf_bgl_anom_socket_2",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.620122,
+            "gold_score": 0.620122
+          },
+          {
+            "id": "eval_upf_bgl_anom_node_map",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.620122,
+            "gold_score": 0.620122
+          },
+          {
+            "id": "eval_upf_bgl_anom_storage_interrupt",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.620122,
+            "gold_score": 0.620122
+          },
+          {
+            "id": "eval_upf_bgl_anom_tlb_interrupt_1",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.620122,
+            "gold_score": 0.620122
+          },
+          {
+            "id": "eval_upf_bgl_anom_tlb_interrupt_2",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.620122,
+            "gold_score": 0.620122
+          },
+          {
+            "id": "eval_upf_hdfs_normal_receive_block",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.620122,
+            "gold_score": 0.620122
+          },
+          {
+            "id": "eval_upf_hdfs_normal_pipeline",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.620122,
+            "gold_score": 0.620122
+          },
+          {
+            "id": "eval_llm_bgl_normal_icache_1",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_llm_bgl_normal_core_1",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_llm_bgl_normal_core_2",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_llm_bgl_normal_core_3",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_llm_bgl_anom_socket_1",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_llm_bgl_anom_socket_2",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_llm_bgl_anom_node_map",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_llm_bgl_anom_storage_interrupt",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_llm_bgl_anom_tlb_interrupt_1",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_llm_bgl_anom_tlb_interrupt_2",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_llm_hdfs_normal_receive_block",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_llm_hdfs_normal_pipeline",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_smf_pod_bgl_normal_icache_1",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_smf_pod_bgl_normal_core_1",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_smf_pod_bgl_normal_core_2",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_smf_pod_bgl_normal_core_3",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_socket_1",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_socket_2",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_node_map",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_storage_interrupt",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_tlb_interrupt_1",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_tlb_interrupt_2",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_smf_pod_hdfs_normal_receive_block",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_smf_pod_hdfs_normal_pipeline",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.446784,
+            "gold_score": 0.446784
+          },
+          {
+            "id": "eval_amf_bgl_normal_icache_1",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.411719,
+            "gold_score": 0.411719
+          },
+          {
+            "id": "eval_amf_bgl_normal_core_1",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.411719,
+            "gold_score": 0.411719
+          },
+          {
+            "id": "eval_amf_bgl_normal_core_2",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.411719,
+            "gold_score": 0.411719
+          },
+          {
+            "id": "eval_amf_bgl_normal_core_3",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.411719,
+            "gold_score": 0.411719
+          },
+          {
+            "id": "eval_amf_bgl_anom_socket_1",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.411719,
+            "gold_score": 0.411719
+          },
+          {
+            "id": "eval_amf_bgl_anom_socket_2",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.411719,
+            "gold_score": 0.411719
+          },
+          {
+            "id": "eval_amf_bgl_anom_node_map",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.411719,
+            "gold_score": 0.411719
+          },
+          {
+            "id": "eval_amf_bgl_anom_storage_interrupt",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.411719,
+            "gold_score": 0.411719
+          },
+          {
+            "id": "eval_amf_bgl_anom_tlb_interrupt_1",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.411719,
+            "gold_score": 0.411719
+          },
+          {
+            "id": "eval_amf_bgl_anom_tlb_interrupt_2",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.411719,
+            "gold_score": 0.411719
+          },
+          {
+            "id": "eval_amf_hdfs_normal_receive_block",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.411719,
+            "gold_score": 0.411719
+          },
+          {
+            "id": "eval_amf_hdfs_normal_pipeline",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.411719,
+            "gold_score": 0.411719
+          },
+          {
+            "id": "eval_nssf_bgl_normal_icache_1",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_nssf_bgl_normal_core_1",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_nssf_bgl_normal_core_2",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_nssf_bgl_normal_core_3",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_nssf_bgl_anom_socket_1",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_nssf_bgl_anom_socket_2",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_nssf_bgl_anom_node_map",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_nssf_bgl_anom_storage_interrupt",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_nssf_bgl_anom_tlb_interrupt_1",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_nssf_bgl_anom_tlb_interrupt_2",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_nssf_hdfs_normal_receive_block",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_nssf_hdfs_normal_pipeline",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.429219,
+            "gold_score": 0.429219
+          },
+          {
+            "id": "eval_udr_bgl_normal_icache_1",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 3,
+            "top_score": 0.411784,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_udr_bgl_normal_core_1",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 3,
+            "top_score": 0.411784,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_udr_bgl_normal_core_2",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 3,
+            "top_score": 0.411784,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_udr_bgl_normal_core_3",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 3,
+            "top_score": 0.411784,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_udr_bgl_anom_socket_1",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 3,
+            "top_score": 0.411784,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_udr_bgl_anom_socket_2",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 3,
+            "top_score": 0.411784,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_udr_bgl_anom_node_map",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 3,
+            "top_score": 0.411784,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_udr_bgl_anom_storage_interrupt",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 3,
+            "top_score": 0.411784,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_udr_bgl_anom_tlb_interrupt_1",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 3,
+            "top_score": 0.411784,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_udr_bgl_anom_tlb_interrupt_2",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 3,
+            "top_score": 0.411784,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_udr_hdfs_normal_receive_block",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 3,
+            "top_score": 0.411784,
+            "gold_score": 0.21
+          },
+          {
+            "id": "eval_udr_hdfs_normal_pipeline",
+            "gold": "udr_database_latency",
+            "predicted": "nrf_registration",
+            "rank": 3,
+            "top_score": 0.411784,
+            "gold_score": 0.21
+          }
+        ]
+      },
+      {
+        "mode": "mskg_learning",
+        "top1": 1.0,
+        "top3": 1.0,
+        "mrr": 1.0,
+        "mean_rank": 1.0,
+        "examples": [
+          {
+            "id": "eval_n4_ambiguous_bgl_normal_icache_1",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.484584,
+            "gold_score": 0.484584
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_normal_core_1",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.484584,
+            "gold_score": 0.484584
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_normal_core_2",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.484584,
+            "gold_score": 0.484584
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_normal_core_3",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.484584,
+            "gold_score": 0.484584
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_socket_1",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.484584,
+            "gold_score": 0.484584
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_socket_2",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.484584,
+            "gold_score": 0.484584
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_node_map",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.484584,
+            "gold_score": 0.484584
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_storage_interrupt",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.484584,
+            "gold_score": 0.484584
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_tlb_interrupt_1",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.484584,
+            "gold_score": 0.484584
+          },
+          {
+            "id": "eval_n4_ambiguous_bgl_anom_tlb_interrupt_2",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.484584,
+            "gold_score": 0.484584
+          },
+          {
+            "id": "eval_n4_ambiguous_hdfs_normal_receive_block",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.484584,
+            "gold_score": 0.484584
+          },
+          {
+            "id": "eval_n4_ambiguous_hdfs_normal_pipeline",
+            "gold": "n4_pfcp_path",
+            "predicted": "n4_pfcp_path",
+            "rank": 1,
+            "top_score": 0.484584,
+            "gold_score": 0.484584
+          },
+          {
+            "id": "eval_policy_sparse_bgl_normal_icache_1",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.473067,
+            "gold_score": 0.473067
+          },
+          {
+            "id": "eval_policy_sparse_bgl_normal_core_1",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.473067,
+            "gold_score": 0.473067
+          },
+          {
+            "id": "eval_policy_sparse_bgl_normal_core_2",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.473067,
+            "gold_score": 0.473067
+          },
+          {
+            "id": "eval_policy_sparse_bgl_normal_core_3",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.473067,
+            "gold_score": 0.473067
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_socket_1",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.473067,
+            "gold_score": 0.473067
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_socket_2",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.473067,
+            "gold_score": 0.473067
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_node_map",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.473067,
+            "gold_score": 0.473067
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_storage_interrupt",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.473067,
+            "gold_score": 0.473067
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_tlb_interrupt_1",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.473067,
+            "gold_score": 0.473067
+          },
+          {
+            "id": "eval_policy_sparse_bgl_anom_tlb_interrupt_2",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.473067,
+            "gold_score": 0.473067
+          },
+          {
+            "id": "eval_policy_sparse_hdfs_normal_receive_block",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.473067,
+            "gold_score": 0.473067
+          },
+          {
+            "id": "eval_policy_sparse_hdfs_normal_pipeline",
+            "gold": "pcf_policy_mismatch",
+            "predicted": "pcf_policy_mismatch",
+            "rank": 1,
+            "top_score": 0.473067,
+            "gold_score": 0.473067
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_normal_icache_1",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.36592,
+            "gold_score": 0.36592
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_normal_core_1",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.36592,
+            "gold_score": 0.36592
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_normal_core_2",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.36592,
+            "gold_score": 0.36592
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_normal_core_3",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.36592,
+            "gold_score": 0.36592
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_socket_1",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.36592,
+            "gold_score": 0.36592
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_socket_2",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.36592,
+            "gold_score": 0.36592
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_node_map",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.36592,
+            "gold_score": 0.36592
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_storage_interrupt",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.36592,
+            "gold_score": 0.36592
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_tlb_interrupt_1",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.36592,
+            "gold_score": 0.36592
+          },
+          {
+            "id": "eval_nrf_noisy_bgl_anom_tlb_interrupt_2",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.36592,
+            "gold_score": 0.36592
+          },
+          {
+            "id": "eval_nrf_noisy_hdfs_normal_receive_block",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.36592,
+            "gold_score": 0.36592
+          },
+          {
+            "id": "eval_nrf_noisy_hdfs_normal_pipeline",
+            "gold": "nrf_registration",
+            "predicted": "nrf_registration",
+            "rank": 1,
+            "top_score": 0.36592,
+            "gold_score": 0.36592
+          },
+          {
+            "id": "eval_auth_bgl_normal_icache_1",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.37408,
+            "gold_score": 0.37408
+          },
+          {
+            "id": "eval_auth_bgl_normal_core_1",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.37408,
+            "gold_score": 0.37408
+          },
+          {
+            "id": "eval_auth_bgl_normal_core_2",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.37408,
+            "gold_score": 0.37408
+          },
+          {
+            "id": "eval_auth_bgl_normal_core_3",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.37408,
+            "gold_score": 0.37408
+          },
+          {
+            "id": "eval_auth_bgl_anom_socket_1",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.37408,
+            "gold_score": 0.37408
+          },
+          {
+            "id": "eval_auth_bgl_anom_socket_2",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.37408,
+            "gold_score": 0.37408
+          },
+          {
+            "id": "eval_auth_bgl_anom_node_map",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.37408,
+            "gold_score": 0.37408
+          },
+          {
+            "id": "eval_auth_bgl_anom_storage_interrupt",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.37408,
+            "gold_score": 0.37408
+          },
+          {
+            "id": "eval_auth_bgl_anom_tlb_interrupt_1",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.37408,
+            "gold_score": 0.37408
+          },
+          {
+            "id": "eval_auth_bgl_anom_tlb_interrupt_2",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.37408,
+            "gold_score": 0.37408
+          },
+          {
+            "id": "eval_auth_hdfs_normal_receive_block",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.37408,
+            "gold_score": 0.37408
+          },
+          {
+            "id": "eval_auth_hdfs_normal_pipeline",
+            "gold": "ausf_udm_auth",
+            "predicted": "ausf_udm_auth",
+            "rank": 1,
+            "top_score": 0.37408,
+            "gold_score": 0.37408
+          },
+          {
+            "id": "eval_upf_bgl_normal_icache_1",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.521629,
+            "gold_score": 0.521629
+          },
+          {
+            "id": "eval_upf_bgl_normal_core_1",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.521629,
+            "gold_score": 0.521629
+          },
+          {
+            "id": "eval_upf_bgl_normal_core_2",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.521629,
+            "gold_score": 0.521629
+          },
+          {
+            "id": "eval_upf_bgl_normal_core_3",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.521629,
+            "gold_score": 0.521629
+          },
+          {
+            "id": "eval_upf_bgl_anom_socket_1",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.521629,
+            "gold_score": 0.521629
+          },
+          {
+            "id": "eval_upf_bgl_anom_socket_2",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.521629,
+            "gold_score": 0.521629
+          },
+          {
+            "id": "eval_upf_bgl_anom_node_map",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.521629,
+            "gold_score": 0.521629
+          },
+          {
+            "id": "eval_upf_bgl_anom_storage_interrupt",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.521629,
+            "gold_score": 0.521629
+          },
+          {
+            "id": "eval_upf_bgl_anom_tlb_interrupt_1",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.521629,
+            "gold_score": 0.521629
+          },
+          {
+            "id": "eval_upf_bgl_anom_tlb_interrupt_2",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.521629,
+            "gold_score": 0.521629
+          },
+          {
+            "id": "eval_upf_hdfs_normal_receive_block",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.521629,
+            "gold_score": 0.521629
+          },
+          {
+            "id": "eval_upf_hdfs_normal_pipeline",
+            "gold": "upf_user_plane_drop",
+            "predicted": "upf_user_plane_drop",
+            "rank": 1,
+            "top_score": 0.521629,
+            "gold_score": 0.521629
+          },
+          {
+            "id": "eval_llm_bgl_normal_icache_1",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.386845,
+            "gold_score": 0.386845
+          },
+          {
+            "id": "eval_llm_bgl_normal_core_1",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.386845,
+            "gold_score": 0.386845
+          },
+          {
+            "id": "eval_llm_bgl_normal_core_2",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.386845,
+            "gold_score": 0.386845
+          },
+          {
+            "id": "eval_llm_bgl_normal_core_3",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.386845,
+            "gold_score": 0.386845
+          },
+          {
+            "id": "eval_llm_bgl_anom_socket_1",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.386845,
+            "gold_score": 0.386845
+          },
+          {
+            "id": "eval_llm_bgl_anom_socket_2",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.386845,
+            "gold_score": 0.386845
+          },
+          {
+            "id": "eval_llm_bgl_anom_node_map",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.386845,
+            "gold_score": 0.386845
+          },
+          {
+            "id": "eval_llm_bgl_anom_storage_interrupt",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.386845,
+            "gold_score": 0.386845
+          },
+          {
+            "id": "eval_llm_bgl_anom_tlb_interrupt_1",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.386845,
+            "gold_score": 0.386845
+          },
+          {
+            "id": "eval_llm_bgl_anom_tlb_interrupt_2",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.386845,
+            "gold_score": 0.386845
+          },
+          {
+            "id": "eval_llm_hdfs_normal_receive_block",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.386845,
+            "gold_score": 0.386845
+          },
+          {
+            "id": "eval_llm_hdfs_normal_pipeline",
+            "gold": "llm_endpoint_route",
+            "predicted": "llm_endpoint_route",
+            "rank": 1,
+            "top_score": 0.386845,
+            "gold_score": 0.386845
+          },
+          {
+            "id": "eval_smf_pod_bgl_normal_icache_1",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.419335,
+            "gold_score": 0.419335
+          },
+          {
+            "id": "eval_smf_pod_bgl_normal_core_1",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.419335,
+            "gold_score": 0.419335
+          },
+          {
+            "id": "eval_smf_pod_bgl_normal_core_2",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.419335,
+            "gold_score": 0.419335
+          },
+          {
+            "id": "eval_smf_pod_bgl_normal_core_3",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.419335,
+            "gold_score": 0.419335
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_socket_1",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.419335,
+            "gold_score": 0.419335
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_socket_2",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.419335,
+            "gold_score": 0.419335
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_node_map",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.419335,
+            "gold_score": 0.419335
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_storage_interrupt",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.419335,
+            "gold_score": 0.419335
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_tlb_interrupt_1",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.419335,
+            "gold_score": 0.419335
+          },
+          {
+            "id": "eval_smf_pod_bgl_anom_tlb_interrupt_2",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.419335,
+            "gold_score": 0.419335
+          },
+          {
+            "id": "eval_smf_pod_hdfs_normal_receive_block",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.419335,
+            "gold_score": 0.419335
+          },
+          {
+            "id": "eval_smf_pod_hdfs_normal_pipeline",
+            "gold": "smf_pod_runtime",
+            "predicted": "smf_pod_runtime",
+            "rank": 1,
+            "top_score": 0.419335,
+            "gold_score": 0.419335
+          },
+          {
+            "id": "eval_amf_bgl_normal_icache_1",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.487,
+            "gold_score": 0.487
+          },
+          {
+            "id": "eval_amf_bgl_normal_core_1",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.487,
+            "gold_score": 0.487
+          },
+          {
+            "id": "eval_amf_bgl_normal_core_2",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.487,
+            "gold_score": 0.487
+          },
+          {
+            "id": "eval_amf_bgl_normal_core_3",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.487,
+            "gold_score": 0.487
+          },
+          {
+            "id": "eval_amf_bgl_anom_socket_1",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.487,
+            "gold_score": 0.487
+          },
+          {
+            "id": "eval_amf_bgl_anom_socket_2",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.487,
+            "gold_score": 0.487
+          },
+          {
+            "id": "eval_amf_bgl_anom_node_map",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.487,
+            "gold_score": 0.487
+          },
+          {
+            "id": "eval_amf_bgl_anom_storage_interrupt",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.487,
+            "gold_score": 0.487
+          },
+          {
+            "id": "eval_amf_bgl_anom_tlb_interrupt_1",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.487,
+            "gold_score": 0.487
+          },
+          {
+            "id": "eval_amf_bgl_anom_tlb_interrupt_2",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.487,
+            "gold_score": 0.487
+          },
+          {
+            "id": "eval_amf_hdfs_normal_receive_block",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.487,
+            "gold_score": 0.487
+          },
+          {
+            "id": "eval_amf_hdfs_normal_pipeline",
+            "gold": "amf_n2_sctp",
+            "predicted": "amf_n2_sctp",
+            "rank": 1,
+            "top_score": 0.487,
+            "gold_score": 0.487
+          },
+          {
+            "id": "eval_nssf_bgl_normal_icache_1",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.517309,
+            "gold_score": 0.517309
+          },
+          {
+            "id": "eval_nssf_bgl_normal_core_1",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.517309,
+            "gold_score": 0.517309
+          },
+          {
+            "id": "eval_nssf_bgl_normal_core_2",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.517309,
+            "gold_score": 0.517309
+          },
+          {
+            "id": "eval_nssf_bgl_normal_core_3",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.517309,
+            "gold_score": 0.517309
+          },
+          {
+            "id": "eval_nssf_bgl_anom_socket_1",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.517309,
+            "gold_score": 0.517309
+          },
+          {
+            "id": "eval_nssf_bgl_anom_socket_2",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.517309,
+            "gold_score": 0.517309
+          },
+          {
+            "id": "eval_nssf_bgl_anom_node_map",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.517309,
+            "gold_score": 0.517309
+          },
+          {
+            "id": "eval_nssf_bgl_anom_storage_interrupt",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.517309,
+            "gold_score": 0.517309
+          },
+          {
+            "id": "eval_nssf_bgl_anom_tlb_interrupt_1",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.517309,
+            "gold_score": 0.517309
+          },
+          {
+            "id": "eval_nssf_bgl_anom_tlb_interrupt_2",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.517309,
+            "gold_score": 0.517309
+          },
+          {
+            "id": "eval_nssf_hdfs_normal_receive_block",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.517309,
+            "gold_score": 0.517309
+          },
+          {
+            "id": "eval_nssf_hdfs_normal_pipeline",
+            "gold": "nssf_slice_selection",
+            "predicted": "nssf_slice_selection",
+            "rank": 1,
+            "top_score": 0.517309,
+            "gold_score": 0.517309
+          },
+          {
+            "id": "eval_udr_bgl_normal_icache_1",
+            "gold": "udr_database_latency",
+            "predicted": "udr_database_latency",
+            "rank": 1,
+            "top_score": 0.40339,
+            "gold_score": 0.40339
+          },
+          {
+            "id": "eval_udr_bgl_normal_core_1",
+            "gold": "udr_database_latency",
+            "predicted": "udr_database_latency",
+            "rank": 1,
+            "top_score": 0.40339,
+            "gold_score": 0.40339
+          },
+          {
+            "id": "eval_udr_bgl_normal_core_2",
+            "gold": "udr_database_latency",
+            "predicted": "udr_database_latency",
+            "rank": 1,
+            "top_score": 0.40339,
+            "gold_score": 0.40339
+          },
+          {
+            "id": "eval_udr_bgl_normal_core_3",
+            "gold": "udr_database_latency",
+            "predicted": "udr_database_latency",
+            "rank": 1,
+            "top_score": 0.40339,
+            "gold_score": 0.40339
+          },
+          {
+            "id": "eval_udr_bgl_anom_socket_1",
+            "gold": "udr_database_latency",
+            "predicted": "udr_database_latency",
+            "rank": 1,
+            "top_score": 0.40339,
+            "gold_score": 0.40339
+          },
+          {
+            "id": "eval_udr_bgl_anom_socket_2",
+            "gold": "udr_database_latency",
+            "predicted": "udr_database_latency",
+            "rank": 1,
+            "top_score": 0.40339,
+            "gold_score": 0.40339
+          },
+          {
+            "id": "eval_udr_bgl_anom_node_map",
+            "gold": "udr_database_latency",
+            "predicted": "udr_database_latency",
+            "rank": 1,
+            "top_score": 0.40339,
+            "gold_score": 0.40339
+          },
+          {
+            "id": "eval_udr_bgl_anom_storage_interrupt",
+            "gold": "udr_database_latency",
+            "predicted": "udr_database_latency",
+            "rank": 1,
+            "top_score": 0.40339,
+            "gold_score": 0.40339
+          },
+          {
+            "id": "eval_udr_bgl_anom_tlb_interrupt_1",
+            "gold": "udr_database_latency",
+            "predicted": "udr_database_latency",
+            "rank": 1,
+            "top_score": 0.40339,
+            "gold_score": 0.40339
+          },
+          {
+            "id": "eval_udr_bgl_anom_tlb_interrupt_2",
+            "gold": "udr_database_latency",
+            "predicted": "udr_database_latency",
+            "rank": 1,
+            "top_score": 0.40339,
+            "gold_score": 0.40339
+          },
+          {
+            "id": "eval_udr_hdfs_normal_receive_block",
+            "gold": "udr_database_latency",
+            "predicted": "udr_database_latency",
+            "rank": 1,
+            "top_score": 0.40339,
+            "gold_score": 0.40339
+          },
+          {
+            "id": "eval_udr_hdfs_normal_pipeline",
+            "gold": "udr_database_latency",
+            "predicted": "udr_database_latency",
+            "rank": 1,
+            "top_score": 0.40339,
+            "gold_score": 0.40339
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+﻿semantic_only top1=0.600 top3=0.800 mrr=0.714 mean_rank=2.500
+vector_rag top1=0.600 top3=0.800 mrr=0.731 mean_rank=2.400
+graph_rag top1=0.900 top3=1.000 mrr=0.933 mean_rank=1.200
+morphology_semantic top1=0.800 top3=1.000 mrr=0.883 mean_rank=1.300
+mskg_learning top1=1.000 top3=1.000 mrr=1.000 mean_rank=1.000
+mskg_learning top1=1.000 top3=1.000 mrr=1.000 mean_rank=1.000
